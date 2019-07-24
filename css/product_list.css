@@ -1,0 +1,80 @@
+/* 面包导航 */
+#bread-nav{
+    height: 46px;
+    border-bottom:3px solid #f3f3f3;
+}
+#bread-nav span,#bread-nav a{
+    font-size: 14px;
+    color:#818388;
+    line-height: 46px;
+}
+/* 产品列表 */
+#product{
+}
+#product .sort,#product .content{
+    margin-top: -14px;
+}
+#product .sort ul li{
+    height: 48px;
+    width:262px;
+    line-height: 48px;
+    background: #f2f2f2;
+    border-bottom: 1px solid white;   
+}
+#product .sort li a{
+    color:#252525;   
+}
+#product .sort img{
+    width:263px;
+    height:263px;  
+    margin-top: 20px;   
+}
+/* 产品内容 */
+#product .content {
+    width:924px;
+    margin-left: 13px;
+}
+#product .content .items{
+    width:282px;
+    height:330px;
+    border:1px solid #f3f3f3;   
+}
+#product .content .items:not(:nth-child(3n)){
+    margin:13px;
+}
+#product .content .items:nth-child(3n){
+    margin:13px 0 13px 13px;
+}
+#product .content .items  img{
+    width:252px;
+    height:250px;
+    margin: 15px 15px 2px 15px ;
+}
+#product .content .items h3,#product .content .items span{
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 22px;
+}
+#product .content .items span{
+    font-size:14px;
+}
+#product .content .items a{
+    color:#3f3e45;
+}
+/* 页码 */
+#page{
+    height:16px;
+    width:270px;
+    margin:74px 0 58px 672px;;
+}
+#page span,#page li{
+    float:left;
+}
+#page ul{
+    margin-left: 12px;
+}
+#page li{
+    margin:0 2px;
+    border:1px solid #dddcdc;
+    font-size:13px;
+}

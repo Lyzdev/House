@@ -1,0 +1,134 @@
+body{
+    min-width: 1200px;
+    font-family: '微软雅黑';
+    -webkit-transform: 0.5s all ease;
+}
+/* 版心 */
+.wrapper{
+    width:1200px;
+    margin:0 auto;
+}
+/* 设置浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+/* 清除浮动 */
+.clearfix::after{
+    content:"";
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height:0;
+}
+/* 定位 */
+.absp{
+    position: absolute;
+}
+.relp{
+    position: relative;
+}
+/* 辅助工具 */
+/* 1.辅助背景 */
+.bgblue{
+    background-color:  blue;
+  }
+.bggray{
+      background-color: gray;
+  }
+.bgblack{
+    background: #252525;
+}
+/* 2.字体大小 */
+.f12{
+    font-size:12px;
+}
+.f14{
+    font-size:14px;
+}
+.f16{
+    font-size:16px;
+}
+.f15{
+    font-size:15px;
+}
+.f18{
+    font-size:18px;
+}
+.f20{
+    font-size:20px;
+}
+.f24{
+    font-size:24px;
+}
+.f28{
+    font-size:28px;
+}
+.f30{
+    font-size:30px;
+}
+/* 字体样式 */
+.fnormal{
+    font-weight: normal;
+}
+/* 字体颜色 */
+.fwhite{
+    color:white;
+}
+/* 页面黑色字体 */
+.fblack1{
+    color:#252525;
+}
+/* 产品标题英文 */
+.fgray{
+    color:#bbb8b5;
+}
+.fblue{
+    color:#15bded;
+}
+/* 文本样式 */
+.tcenter{
+    text-align: center;
+}
+/* 水平居中 */ 
+.marauto{
+    margin:0 auto;
+}
+/* 长宽 */
+.w100{
+    width:100%;
+}
+.h100{
+    height:100%;
+}
+/* 结构通用样式 */
+/* 标题 */
+.title{
+    margin: 35px 0;
+    height:70px;
+    line-height: 70px;
+    background: url('../imgs/nav_bg02.png') no-repeat left bottom;
+    color:#bbb8b5;
+}
+.title>h2{
+    float:left;
+    font-weight: normal;
+    margin-right:16px;
+    font-size:28px;
+    color:#252525;
+}
+.title>span{
+    font-size: 22px;
+}
+/* 底部标题 */
+.btitle{
+    width:322px;
+    line-height: 56px;
+    background: url('../imgs/line_bg.png') no-repeat left bottom;
+    font-size: 18px;
+    font-weight: normal;
+    color:white;
+    margin-top: 22px;
+}

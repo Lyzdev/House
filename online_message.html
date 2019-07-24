@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 样式引入 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/online_message.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>在线留言-HOUSE家居网</title>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <!-- 顶部 -->
+        <div class="top bgblack fwhite">
+            <div class="wrapper">
+                欢迎来到HOUSE家居网！
+                <div class="fr">
+                    <a href="#"><img src="./imgs/tel.png" alt="">400-00-000xxx </a>
+                    <a href="#"><img src="./imgs/mail.png" alt=""> 1234567xxx@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <!-- 菜单 -->
+        <div class="wrapper menu">
+            <a href="#"><img src="./imgs/logo.png" alt="" class="fl"></a>
+            <ul class="fr nav f16">
+                <li class="current"><a href="./index.html"> 首页</a></li>
+                <li><a href="./about_us.html"> 关于我们</a>
+                    <ul class="submenu absp">
+                        <li><a href="#">联系方式</a></li>
+                        <li><a href="#">联系地址</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">加盟热线</a></li>
+                    </ul>
+                </li>
+                <li><a href="./product_list.html"> 产品展示</a>
+                    <ul class="submenu absp">
+                        <li><a href="#">家居日用</a></li>
+                        <li><a href="#">家居收纳</a></li>
+                        <li><a href="#">家居饰品</a></li>
+                        <li><a href="#">厨房餐具</a></li>
+                    </ul></li>
+                <li><a href="./product_news.html"> 新闻动态</a>
+                    <ul class="submenu absp">
+                        <li><a href="#">行业新闻</a></li>
+                        <li><a href="#">家居市场</a></li>
+                        <li><a href="#">家居活动</a></li>
+                        <li><a href="#">加盟热线</a></li>
+                    </ul></li>
+                <li><a href="./online_message.html"> 在线留言</a>
+                    <ul class="submenu absp">
+                        <li><a href="#">联系方式</a></li>
+                        <li><a href="#">联系地址</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">加盟热线</a></li>
+                    </ul></li>
+                <li><a href="./contact_us.html"> 联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- banner -->
+    <div id="banner" class="w100 clearfix">
+        <!-- <div class="inbanner fwhite tcenter">
+            <h2>精致生活 简单爱</h2>
+            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+            <p>给您无微不至的关怀</p>
+        </div> -->
+    </div>
+    <!-- 面包导航 -->
+    <div id="bread-nav">
+        <div class="wrapper">
+            <a href="./index.html">首页</a>
+            <span>>>在线留言</span>
+        </div>
+    </div>
+    <!-- 产品展示 -->
+    <div id="product" class="wrapper clearfix">
+        <div class="title">
+            <h2>在线留言</h2>
+        </div>
+        <!-- 在线留言 -->
+        <div class="sort fl">
+            <ul class="tcenter f14">
+                <li><a href="#">床上用品</a></li>
+                <li><a href="#">家居饰品</a></li>
+                <li><a href="#">居家日用</a></li>
+                <li><a href="#">家居收纳</a></li>
+                <li><a href="#">厨房收纳</a></li>
+                <li><a href="#">厨房餐饮</a></li>
+            </ul>
+            <img src="./imgs/03_f0hi.jpg" alt="">
+        </div>
+        <!-- 在线留言 -->
+        <div class="message fl">
+            <p>您可以留下您宝贵的意见，我们会在第一时间回复您，谢谢关注！</p>
+            <form action="#" method="GET">
+                <p>您的姓名<span>＊</span></p>
+                <input type="text" name="name">
+                <p>您的电话<span>＊</span></p>
+                <input type="text" name="phone">
+                <p>您的邮箱<span>＊</span></p>
+                <input type="text" name="email">
+                <p>咨询项目<span>＊</span></p>
+                <label><input type="checkbox" name="cons_project"><span></span>&nbsp;床上用品</label>
+                <label><input type="checkbox" name="cons_project"><span></span>&nbsp;家居饰品</label>
+                <label><input type="checkbox" name="cons_project"><span></span>&nbsp;居家日用</label>
+                <label><input type="checkbox" name="cons_project"><span></span>&nbsp;收纳用具</label>
+                <label><input type="checkbox" name="cons_project"><span></span>&nbsp;厨房收纳</label>
+                <label><input type="checkbox" name="cons_project"><span></span>&nbsp;厨房餐饮</label>
+                <p>咨询内容<span>＊</span></p>
+                <textarea name="cons_content" id=""></textarea>
+                <input type="submit" value="提交">
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="wrapper clearfix">
+            <!-- contact -->
+            <div class="contact fl">
+                <img src="./imgs/logo2.jpg" alt="">
+                <p><i></i>中国上海市xxx区xxx路12号moumou大厦5层5xx室</p>
+                <p><i></i>400-000-xxxx / (021)-1234578xxx</p>
+                <p><i></i>12385963xxxx@gmail.com</p>
+            </div>
+            <!-- link -->
+            <div class="link fl">
+                <h2 class="btitle">
+                    快速链接
+                </h2>
+                <ul>
+                    <li><a href="./index.html">> 网站首页 </a></li>
+                    <li><a href="./about_us.html">> 关于我们 </a></li>
+                    <li><a href="./product_list.html">> 产品展示 </a></li>
+                    <li><a href="./product_news.html">> 新闻动态 </a></li>
+                    <li><a href="./online_message.html">> 在线留言 </a></li>
+                    <li><a href="./contact_us.html">> 联系我们 </a></li>
+                </ul>
+            </div>
+            <!-- resarch -->
+            <div class="resarch fl">
+                <h2 class="btitle">站内搜索</h2>
+                <form action="#" method="GET" class="clearfix">
+                    <input type="text" name="research" placeholder="请输入关键字"><input type="submit" value="搜索">
+                </form>
+                <a href="#">关注我们&nbsp;</a>
+                <a href="#"><i></i></a>
+                <a href="#"><i></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <p>Copyright © 2009-2011,www.XXXXXX.com,All rights reserved 沪ICP备XXXXXXX号未经同意,不得转载</p>
+    </div>
+</body>
+</html>

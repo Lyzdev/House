@@ -1,0 +1,120 @@
+/* 面包导航 */
+#bread-nav{
+    height: 46px;
+    border-bottom:3px solid #f3f3f3;
+}
+#bread-nav span,#bread-nav a{
+    font-size: 14px;
+    color:#818388;
+    line-height: 46px;
+}
+/* 产品列表 */
+#product{
+  height:828px;
+}
+#product .sort,#product .message{
+    margin-top: -14px;
+}
+#product .sort ul li{
+    height: 48px;
+    width:262px;
+    line-height: 48px;
+    background: #f2f2f2;
+    border-bottom: 1px solid white;   
+}
+#product .sort li a{
+    color:#252525;
+}
+#product .sort img{
+    width:263px;
+    height:263px;  
+    margin-top: 20px;   
+}
+/* 在线留言 */
+#product .message{
+    width:910px;
+    margin-left: 26px;
+}
+#product .message>p:first-child{
+     line-height: 56px;
+     margin-bottom: 9px;
+     font-size: 16px;
+     font-weight: bold;
+     color:#3f3e45
+}
+#product .message form p{
+    line-height: 36px;
+    font-size: 14px;
+    color:#606369;
+}
+#product .message p>span{
+    vertical-align: middle;
+    font-size: 15px;
+    color:red;
+}
+#product .message form input[type="text"]{
+    width:800px;
+    height: 40px;
+    border:1px solid #e3e3e3;
+    margin-bottom: 12px;
+}
+#product .message form label{
+    position: relative;
+    line-height: 14px;
+    color:#606369;
+}
+#product .message form label:hover{
+    cursor: pointer;
+}
+#product .message form input[type="checkbox"]+span{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background: #9499a3;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#product .message form input[type="checkbox"]:checked+span{
+    background: #21bcd8;
+}
+#product .message form input[type="checkbox"]{
+    display: none;
+}
+#product .message input[type="checkbox"]+span:after{
+    display: inline-block;
+    content:"";
+    width:10px;
+    height:5px;
+    border:2px solid #fff;
+    border-color: transparent transparent #fff #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    left:3px;
+    top:0px;
+}
+#product .message form label{
+    display: inline-block;
+    font-size:14px;
+    margin:12px 18px 26px 4px;
+}
+#product .message form input[type="checkbox"]{
+    vertical-align: middle;
+}
+#product .message form textarea{
+    width:797px;
+    height:68px;
+    border:3px solid #e3e3e3;
+    margin: 7px 0;
+}
+#product .message form input[type="submit"]{
+    width:801px;
+    height:45px;
+    line-height: 45px;
+    border:0;
+    color:white;
+    text-align: center;
+    font-size:15px;
+    background: #21bcd8;
+    margin-top: 18px;
+}

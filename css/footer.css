@@ -1,0 +1,95 @@
+/* footer */
+#footer{
+    padding:42px 0 70px 0;
+    background: #141414;
+}
+#footer .contact img{
+    margin: 26px 0;
+}
+#footer .contact p {
+    line-height: 42px;
+    font-size: 14px;
+    color:#818388;   
+}
+#footer .contact p i{
+    display: inline-block;
+    vertical-align: middle;
+    width:24px;
+    height: 20px;
+}
+#footer .contact p:first-of-type i{
+    background: url(../imgs/icon.jpg) 1px 0 no-repeat ;
+}
+#footer .contact p:nth-of-type(2) i{
+    background: url(../imgs/icon.jpg) 1px -41px no-repeat ;
+}
+#footer .contact p:last-of-type i{
+    background: url(../imgs/icon.jpg) 1px -84px no-repeat ;
+}
+/* link */
+#footer .link{
+    width:322px;
+    margin:0 44px 0 88px;
+}
+#footer .link ul{
+    margin-top: 22px;
+}
+#footer .link ul li{
+    float:left;
+    width:161px;
+    line-height: 42px;
+    font-size: 14px;   
+}
+#footer .link ul li a{
+    text-decoration: none;
+    color:#818388;
+}
+/* 站内搜索 */
+#footer .resarch form{
+    margin: 35px 0 30px;
+}
+#footer .resarch form input:first-child{
+    float: left;
+    width:220px;
+    height:46px;
+    border:0;
+    background:#333;
+    text-indent: 6px;
+}
+#footer .resarch form input:last-child{
+    float: left;
+    width:100px;
+    height:46px;
+    border:0;
+    font-size:15px;
+    color:white;
+    background: #3aa27f;
+}
+#footer .resarch a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#818388
+}
+#footer .resarch a i{
+    display: inline-block;
+    vertical-align: middle;
+    width:38px;
+    height: 29px;
+}
+#footer .resarch a:nth-of-type(2) i{
+    background: url('../imgs/fenxiang.png') 0 0 no-repeat;
+}
+#footer .resarch a:last-of-type i{
+    background: url('../imgs/fenxiang.png') -40px 0 no-repeat;
+}
+/* 底部 */
+#bottom{
+    height: 76px;
+    background: #000;
+}
+#bottom p{
+    line-height: 76px;
+    text-align: center;
+    font-size: 12px;
+    color:#818388;
+}

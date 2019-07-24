@@ -1,0 +1,80 @@
+/* 头部 */
+#header .top{
+    height: 44px;
+    line-height: 44px;
+}
+#header .top a{
+    color:white;
+}
+#header .top a:first-child{
+    margin-right: 23px;
+}
+/* 菜单 */
+#header .menu{
+    height: 44px;
+    padding:30px 0;
+}
+#header .menu a img{
+    width:150px;
+    height: 50px;
+}
+#header .menu .nav>li{
+    float:left;
+    line-height: 50px;
+    padding: 0 30px;
+    position: relative;
+}
+#header .menu .nav>li:hover{
+    background: url(../imgs/nav_move.jpg) no-repeat center; 
+}
+#header .menu .nav>li:hover .submenu{
+    display: block;
+}
+#header .menu .nav a{
+    text-decoration: none;
+    color:#252525;   
+}
+#header .menu .submenu{
+    width:124px;
+    left:0%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: none;
+}
+#header .menu .submenu li{
+    line-height:35px;
+    font-size: 14px;
+    text-align: center;
+}
+#header .menu .submenu a{
+    display:block;
+    width:100%;
+    height: 100%;
+}
+#header .menu .submenu a:hover{
+    background: rgb(97, 94, 93);
+    text-decoration: none;
+    box-shadow: inset 0px -2px 11px rgb(46, 39, 39);
+    color:white;
+    -webkit-transition: 0.6s all;
+}
+/* banner部分 */
+#banner{
+    height:307px;
+    /* padding:165px 0 172px; */
+    background:url('../imgs/banner5.jpg') no-repeat center;
+}
+#banner .inbanner{
+    background:url('./../imgs/border.png') no-repeat center;
+    padding:21px 0 51px 0;
+}
+#banner .inbanner h2{
+    line-height: 80px;
+    font-size: 44px;
+}
+#banner .inbanner p{
+    font-size: 18px;
+    line-height: 30px;
+}

@@ -1,0 +1,56 @@
+/* 面包导航 */
+#bread-nav{
+    height: 46px;
+    border-bottom:3px solid #f3f3f3;
+}
+#bread-nav span,#bread-nav a{
+    font-size: 14px;
+    color:#818388;
+    line-height: 46px;
+}
+/* 产品列表 */
+#product{
+    height:732px;
+}
+#product .sort,#product .contact-inform{
+      margin-top: -14px;
+}
+#product .sort ul li{
+      height: 48px;
+      width:262px;
+      line-height: 48px;
+      background:           #f2f2f2;
+      border-bottom: 1px solid white;   
+}
+#product .sort li a{
+      color:#252525;
+}
+#product .sort img{
+      width:263px;
+      height:263px;  
+      margin-top: 20px;   
+}
+#product .contact-inform{
+    width:910px;
+    padding-top:10px;
+    margin-left: 25px;
+}
+/* #product .contact-inform .map{
+    width:912px;
+    height: 370px;;
+} */
+#product .contact-inform img{
+    width:912px;
+    height: 370px;;
+}
+#product .contact-inform .card{
+    width:913px;
+    padding:20px 0 27px 20px;
+    border:2px solid #eee;
+    margin-top: 35px;
+}
+#product .contact-inform .card p{
+    line-height: 40px;
+    font-size:16px;
+    color:#818388;
+}

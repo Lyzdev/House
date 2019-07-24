@@ -1,0 +1,74 @@
+/* 面包导航 */
+#bread-nav{
+    height: 46px;
+    border-bottom:3px solid #f3f3f3;
+}
+#bread-nav span,#bread-nav a{
+    font-size: 14px;
+    color:#818388;
+    line-height: 46px;
+}
+/* 新闻 */
+#news{
+}
+#news .sort ul li{
+    height: 99px;
+    width:262px;
+    line-height: 99px;
+    background: #f2f2f2;
+    border-bottom: 1px solid white;   
+}
+#news .sort li a{
+    color:#252525;
+}
+#news .sort img{
+    width:263px;
+    height:263px;  
+    margin-top: 20px;   
+}
+/* 新闻内容 */
+#news .content{
+}
+#news .content ul {
+    width:910px;
+    padding-top:4px;
+    margin-left: 24px;
+}
+#news .content li{
+    height: 120px;
+    border-bottom:2px solid #eee; 
+    padding:18px 0;
+}
+#news .content li h3{
+    font-size: 14px;
+}
+#news .content li h3 a{
+    color:#606369;
+}
+#news .content li span{
+    line-height:30px;
+    font-size: 12px;
+    color:#a5a5b1;
+}
+#news .content li p{
+    line-height:18px;
+    font-size: 14px;
+    color:#818388;
+}
+/* 页码 */
+#page{
+    height:16px;
+    width:270px;
+    margin:74px 0 58px 672px;;
+}
+#page span,#page li{
+    float:left;
+}
+#page ul{
+    margin-left: 12px;
+}
+#page li{
+    margin:0 2px;
+    border:1px solid #dddcdc;
+    font-size:13px;
+}
